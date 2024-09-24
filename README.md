@@ -26,10 +26,14 @@ O algoritmo de parentização resolve o problema da melhor forma de multiplicar 
    ```bash
    git clone https://github.com/MarciaGabrielle/MarciaOliveira_PauloJunior_FinalProject_AA_RR_2024.git
 
-2. **Compile o código:**
+2. **Compile o código em C:**
    ```bash
    gcc -o parentizacao parentizacao.c
 
-3. **Execute o programa:**
+3. **Execute o programa em C para gerar um CSV com os tempos de execução:**
     ```bash
     ./parentizacao
+
+4. **Após gerar o CSV execute o codigo em Python para gerar a tabela e analisar os tempos de execução:**
+    ```bash
+    python bench.py
