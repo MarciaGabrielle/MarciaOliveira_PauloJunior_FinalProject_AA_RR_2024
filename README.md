@@ -1,10 +1,10 @@
 # Algoritmo de Parentização - Projeto Final de Análise de Algoritmos
 
-Este repositório contém o código do projeto final da disciplina de **Análise de Algoritmos** com o tema **Algoritmo de Parentização**. O objetivo do projeto é resolver o problema do **Menor Custo de Multiplicação de Matrizes em Cadeia** utilizando técnicas de otimização baseadas em programação dinâmica.
+Este repositório contém o código do projeto final da disciplina de **Análise de Algoritmos** com o tema **Algoritmo de Parentização**. O objetivo do projeto é resolver o problema de **Tomada de decisão** utilizando técnicas de otimização baseadas em programação dinâmica.
 
 ## Estrutura do Repositório
 
-- **/codes**: Contém os códigos-fonte implementados em C para a solução do problema proposto utilizando o Algoritmo de Parentização.
+- **/codes**: Contém os códigos-fonte implementados em C e python para a solução do problema proposto utilizando o Algoritmo de Parentização.
 - **/docs**: Contém o relatório referente ao projeto.
 - **/slides**: Contém os slides referente ao projeto.
 
@@ -25,3 +25,11 @@ O algoritmo de parentização resolve o problema da melhor forma de multiplicar 
 1. **Clone o repositório:**
    ```bash
    git clone https://github.com/MarciaGabrielle/MarciaOliveira_PauloJunior_FinalProject_AA_RR_2024.git
+
+2. **Compile o código:**
+   ```bash
+   gcc -o parentizacao parentizacao.c
+
+3. **Execute o programa:**
+    ```bash
+    ./parentizacao
