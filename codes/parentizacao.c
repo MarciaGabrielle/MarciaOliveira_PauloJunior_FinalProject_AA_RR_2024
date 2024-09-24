@@ -140,7 +140,7 @@ int main() {
     // Abrindo o arquivo CSV para salvar os tempos de execução
     FILE *fp = fopen("tempos_execucao.csv", "w");
     if (fp == NULL) {
-        printf("Erro ao abrir o arquivo para escrita.\n");
+        //printf("Erro ao abrir o arquivo para escrita.\n");
         return 1;
     }
 
@@ -181,13 +181,13 @@ int main() {
         fprintf(fp, "%d,%.6f\n", exec + 1, tempo);
 
         // Exibindo o tempo de execução no console
-        printf("Execução %d: Tempo = %.6f segundos\n", exec + 1, tempo);
+        //printf("Execução %d: Tempo = %.6f segundos\n", exec + 1, tempo);
     }
 
     // Fechando o arquivo CSV
     fclose(fp);
 
-    printf("Tempos de execução salvos em 'tempos_execucao.csv'\n");
+    //printf("Tempos de execução salvos em 'tempos_execucao.csv'\n");
 
     return 0;
 }
